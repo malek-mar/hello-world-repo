@@ -1,5 +1,7 @@
 name: Hello World 2
-'on':push
+on:
+  push:
+    branches: main
 jobs:
   hello-job:
     runs-on: ubuntu-latest
